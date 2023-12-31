@@ -1,0 +1,27 @@
+.dash1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 35px;
+  width: 327px;
+  gap: 11rem;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  
+}
+
+.chat {
+  color: #000;
+ display: flex;
+ align-items: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.cd {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
