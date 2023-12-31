@@ -1,0 +1,63 @@
+.photo1 {
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+}
+
+.user {
+  margin: 0 auto;
+  height: 81px;
+  width: 327px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border: 3px solid black; */
+  border-radius: 15px;
+  gap: 17px;
+  margin-bottom: 18px;
+}
+
+.text {
+  color: #7c7c7d;
+  min-width: 68px;
+  max-height: 19px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.name {
+  color: #030303;
+  min-width: 87px;
+  height: 22px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.photo-name {
+  display: flex;
+  gap: 17px;
+  border-radius: 15px;
+}
+
+.name-time {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  width: 14rem;
+}
+
+.time {
+  color: #686768;
+  height: 16px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
