@@ -1,0 +1,21 @@
+.chatList{
+    height: 982px;
+    width: 384px;
+    /* border: 3px solid black; */
+
+    
+    
+}
+.dash{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 26%;
+}
+
+.scroll{
+
+   overflow: auto;
+    
+   height: 74%;
+}
