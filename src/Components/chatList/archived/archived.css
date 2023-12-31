@@ -1,0 +1,33 @@
+.archived {
+  width: 327px;
+  margin: 0 auto;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ab {
+  height: 24px;
+  width: 22px;
+}
+
+.arc {
+  color: #709ce6;
+
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 65px;
+  height: 20px;
+}
+
+.line2 {
+  margin: 0 auto;
+  width: 327px;
+  height: 0.5px;
+  background: #b4b4b4;
+  margin-top: 20px;
+}
