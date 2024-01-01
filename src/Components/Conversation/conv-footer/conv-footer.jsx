@@ -9,16 +9,24 @@ const ConvFooter = () => {
       <div className="conv-footer">
         <div className="write">
           <div className="link-write">
-            <img src={link} alt={link} />
-            <p className="msg"> Write a message ...</p>
+            <img className="cursor" src={link} alt={link} />
+
+            <div className="msg-input">
+              <input
+                className="msg-input"
+                type="text"
+                placeholder="Write a message ..."
+              />
+              {/* <p className="msg"> Write a message ...</p> */}
+            </div>
           </div>
           <div className="smile">
-            <img src={smiley} alt={smiley} />
+            <img className="cursor" src={smiley} alt={smiley} />
           </div>
         </div>
 
         <div className="sd">
-          <img className="send" src={tele} alt={tele} />
+          <img className="send cursor" src={tele} alt={tele} />
         </div>
       </div>
     </>

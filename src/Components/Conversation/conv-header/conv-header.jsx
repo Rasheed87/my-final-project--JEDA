@@ -16,7 +16,7 @@ const ConvHeader = () => {
     return (
         <>
         <div className="conv-header">
-            <UserPro {...userProps}/>
+            <UserPro  {...userProps}/>
             <Nav/>
         </div>
         </>

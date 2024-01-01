@@ -34,12 +34,25 @@
 
 .link-write {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 13px;
   padding-left: 13px;
+  width: 50rem;
+  /* border: 2px solid black; */
 }
 
 .smile {
   padding-right: 16px;
+}
+
+.msg-input{
+ width: 40rem;
+ border: none;
+ padding: 10px;
+ border-radius: 12px;
+ background-color: inherit;
+}
+.cursor{
+  cursor: pointer;
 }
