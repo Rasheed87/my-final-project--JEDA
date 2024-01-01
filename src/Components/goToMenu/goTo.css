@@ -1,8 +1,8 @@
 .goTo {
     position: relative;
 flex-grow: 1;
-height: 800px;
-width: 129px;
+max-height: 982px;
+max-width: 129px;
 /* border: 3px solid black; */
 box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -95,10 +95,10 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .pro{
-    height: 250px;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     /* border: 2px solid black; */
-    gap: 50px;
+    gap: 80px;
 }

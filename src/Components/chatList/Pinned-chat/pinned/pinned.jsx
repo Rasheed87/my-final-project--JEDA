@@ -14,12 +14,14 @@ const Pinned = () => {
           name={"Ahmed Rasheed"}
           text={"how are yo doing today"}
           time={"9:47"}
+          isActive={true}
         />
         <User
           photo={pix}
           name={" Aishat Ahmed"}
           text={"I texted you last nigh"}
           time={"3:14"}
+          isActive={true}
         />
       </div>
     </>

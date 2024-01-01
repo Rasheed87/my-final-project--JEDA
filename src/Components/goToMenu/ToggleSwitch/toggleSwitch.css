@@ -1,0 +1,126 @@
+/* .dark-theme{
+    background-color: rgb(14, 12, 12);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.light-theme{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+
+.profile-elipse{
+       display: flex;
+     justify-content: flex-end;
+     align-items: center;
+    height: 28px;
+    width: 53px;
+    border-radius: 20px;
+    background-color:  #5B96F7;
+    
+  
+  
+ 
+  padding: 20px;
+}
+.toggle-button {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-button.right {
+  order: 1; /* Places the button on the right 
+}
+
+.toggle-button.left {
+  order: 0; /* Places the button on the left 
+}
+
+ .theme-button {
+  width: px;
+  height: 20px;
+  background-color: #fbfbfb;
+  color: rgb(29, 24, 24);
+  border: none;
+  cursor: pointer;
+  font-size: 3px;
+}  */
+
+.app-container {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 28px;
+  width: 53px;
+  border-radius: 20px;
+  background-color:#5B96F7;
+  
+  padding: 2px;
+}
+
+.app-container2 {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; */
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  height: 28px;
+  width: 53px;
+  border-radius: 20px;
+  
+  background-color: #5B96F7;
+  
+}
+
+
+
+.toggle-button {
+  /* width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 7px;
+  transition: all 0.3s ease; */
+
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  padding-right: 5px;
+}
+
+/* .toggle-button.right {
+  order: 1; 
+}
+
+.toggle-button.left {
+  order: 0; 
+} */
+
+.dark-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}

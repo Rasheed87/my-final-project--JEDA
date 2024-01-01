@@ -3,12 +3,12 @@ import Pinned from "./pinned/pinned"
 
 const PinnedChat = () => {
     return (
-        <>
+      <>
         <div className="pinned-chat">
-          <Pinned/>
+          <Pinned  />
         </div>
-        </>
-    )
+      </>
+    );
 }
 
 export default PinnedChat

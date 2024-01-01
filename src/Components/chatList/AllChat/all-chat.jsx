@@ -3,6 +3,8 @@ import User from "../Pinned-chat/userChat/user";
 import pix from "./images/photo.png";
 
 const AllChat = () => {
+
+
   let users = [
     {
       index: 0,
@@ -10,6 +12,7 @@ const AllChat = () => {
       name: " Luqman Ajiboye",
       text: "I texted you last nigh",
       time: "8:14",
+      isActive: true,
     },
     {
       index: 2,
@@ -17,6 +20,7 @@ const AllChat = () => {
       name: " Titi Ayo",
       text: "you are welcome",
       time: "1:22",
+      isActive: true,
     },
     {
       index: 3,
@@ -24,6 +28,7 @@ const AllChat = () => {
       name: " Faith Bamilola",
       text: "good afternoon",
       time: "6:42",
+      isActive: false,
     },
     {
       index: 4,
@@ -31,6 +36,7 @@ const AllChat = () => {
       name: " Aishat Ahmed",
       text: " call me",
       time: "9:26",
+      isActive: true,
     },
     {
       index: 5,
@@ -38,6 +44,7 @@ const AllChat = () => {
       name: " Olaolu Kolawole",
       text: "we are breaking up",
       time: "11:18",
+      isActive: true,
     },
     {
       index: 6,
@@ -45,6 +52,7 @@ const AllChat = () => {
       name: "Ekpu Karo",
       text: "i love you",
       time: "11:18",
+      isActive: false,
     },
     {
       index: 7,
@@ -52,6 +60,7 @@ const AllChat = () => {
       name: " Sikiru Alo",
       text: "i dont care",
       time: "11:18",
+      isActive: false,
     },
   ];
   return (
